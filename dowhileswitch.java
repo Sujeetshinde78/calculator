@@ -34,15 +34,7 @@ public class dowhileswitch{
 				c=n1*n2;
 				System.out.println("Multiplication of two numbers is: "+c);
 				break;
-			case 'd':
-				if(n2==0)
-					System.out.println("Denominator should not be zero");
-				else
-				{
-					c=n1/n2;
-					System.out.println("Division of two numbers is: "+c);
-				}
-				break;
+			
 			case 'e':
 				System.exit(0);
 				break;
