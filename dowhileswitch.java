@@ -43,7 +43,7 @@ public class dowhileswitch{
 				System.out.println("Wrong Choice");
 			}
 			System.out.println("Do you want to continue(1/0)?");
-			//ans=s.nextInt();
+			//ans=s.nextInt(); 
 		}while(ans!=0);
 	}
 	
