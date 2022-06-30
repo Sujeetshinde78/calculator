@@ -3,16 +3,17 @@ import java.util.Scanner;
 public class dowhileswitch{
 	public static void main(String args[])
 	{
-		Scanner s=new Scanner(System.in);
+		//Scanner s=new Scanner(System.in);
 		int n1,n2;
+		n1=2;n2=3;
 		int ans=1,c=0;
 		char choice;
 		
 		do
 		{
 			System.out.println( "Enter any two numbers:");
-			n1=s.nextInt();
-			n2=s.nextInt();
+			//n1=s.nextInt();
+			//n2=s.nextInt();
 			System.out.println("a. Addition\nb. Subtraction\nc. Multiplication\nd. Division\ne. Exit");
 			System.out.println("Enter Your Choice: ");
 			choice=s.next().charAt(0);
