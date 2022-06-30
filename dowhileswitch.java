@@ -16,7 +16,7 @@ public class dowhileswitch{
 			//n2=s.nextInt();
 			System.out.println("a. Addition\nb. Subtraction\nc. Multiplication\nd. Division\ne. Exit");
 			System.out.println("Enter Your Choice: ");
-			choice=s.next().charAt(0);
+			//choice=s.next().charAt(0);
 			
 			switch(choice)
 			 {
