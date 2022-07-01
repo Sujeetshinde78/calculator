@@ -48,47 +48,21 @@
 // 	}
 	
 // }
+import java.util.Scanner;
+
 public class dowhileswitch {
-	static int x;
-	static int y;
-	int r;
-	double res;
-	static int sum;
-	static int mul;
-	static double pow;
-	
-	public void init()
+	public static void main(String args[])
 	{
-		//System.out.println("Enter two numbers");
-		//Scanner s=new Scanner(System.in);
-		x=5;
-		y=6;
-	}
-	public int add(int x,int y)
-	{
-		return x+y;
-	}
-	public int multiply(int x,int y)
-	{
-		return x*y;
-	}
-	public double power(int x,int y)
-	{
-		double res=Math.pow(x, y);
-		return res;
+		int n1=15;
+                int n2=15;
+      
+             System.out.println("add= "+(n1+n2));
+              System.out.println("sub= "+(n1-n2));
+             System.out.println("mul= "+(n1*n2));
+              System.out.println("div= "+(n1/n2));
+ 
+ 
 	}
 	
-	public void display()
-	{
-		System.out.println("Addition is "+sum+" and Multiplication is "+mul+" Power is "+pow);
-	}
-public static void main(String[] args)
-{
-	dowhileswitch m=new dowhileswitch();
-	m.init();
-	sum=m.add(x,y);
-	mul=m.multiply(x,y);
-	pow=m.power(x,y);
-	m.display();
 }
-}
+
